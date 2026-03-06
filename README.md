@@ -2,7 +2,7 @@
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github.com/react-pdf-kit/starter-rp-react-js-vite)
 
-Welcome to the React PDF Kit Starter Toolkit! This repository provides a comprehensive guide on integrating React PDF with React, JavaScript and Vite. It showcases how React PDF can be integrated and rendered as part of a React.js project.
+Welcome to the React PDF Kit Starter Toolkit! This repository provides a comprehensive guide on integrating React PDF with React, JavaScript and Vite. It showcases the React PDF Viewer component can be integrated and rendered as part of a React.js project.
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ Welcome to the React PDF Kit Starter Toolkit! This repository provides a compreh
 
 ### Running the Example Project
 
-This repository includes an example project to demonstrate React PDF Kit in action.
+This repository includes an example project to demonstrate the React PDF Kit in action.
 
 1. **Start the Development Server**: Use the following command to start the development server
 
@@ -70,7 +70,7 @@ export const AppPdfViewer = (props) => {
 
   return (
     <RPProvider
-      src="https://cdn.codewithmosh.com/image/upload/v1721763853/guides/web-roadmap.pdf"
+      src="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf"
       {...providerProps}
     >
       {showToolbar ? (
